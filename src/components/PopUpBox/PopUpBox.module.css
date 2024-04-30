@@ -1,0 +1,136 @@
+.popUpContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 85vw;
+        background: white;
+        left: 7.5%;
+        top: 600px;
+        position: absolute;
+        border-radius: 15px;
+        box-shadow: 6px 6px 35px 0px rgba(16, 40, 81, 0.11);
+        
+}
+
+.formContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 3rem;
+}
+
+.formInputContainer{
+    position: relative;
+    width: 300px;
+    
+}
+.searchIcon{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 25px;
+  
+
+}
+.formInput{
+    width: calc(100% - 30px); /* Adjust padding and width to fit the icon */
+  padding: 10px 10px 10px 40px; /* Adjust padding to fit the icon */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+
+}
+.formButton{
+    display: flex;
+    align-items: center;
+    color: white;
+    border-radius: 8px;
+    border: 0px;
+    background: rgba(42, 168, 255, 1);
+    padding: 10px 15px ;
+    font-weight: 500;
+    font-size: 16px;
+}
+.popUpHeading{
+    font-weight: 500;
+    font-size: 20px;
+
+}
+.popUpIcons{
+    display: flex;
+    margin: 2rem;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.popUpCard{
+    width: 175px;
+    height: 125px;
+}
+.DoctorCard{
+    width: 175px;
+    height: 125px;
+
+}
+
+.hospitalCard{
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 125px;
+    width: 175px;
+    cursor: pointer;
+
+}
+.hospitalCardImg{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+.hospitalCardText{
+    color: rgba(171, 182, 199, 1);
+}
+
+.hospitalCard:hover{
+    border: 1px solid rgba(42, 167, 255, 1);
+    .hospitalCardText{
+        color: rgba(42, 167, 255, 1);
+    }
+    
+}
+.DoctorCard:hover{
+    border: 1px solid rgba(42, 167, 255, 1);
+    color: rgba(42, 167, 255, 1);
+    cursor: pointer;
+    
+}
+
+
+
+
+
+@media only screen and (max-width: 1200px){
+    .popUpIcons{
+        flex-wrap: wrap;
+    }
+}
+@media only screen and (max-width: 930px){
+    .popUpContainer{
+        top: 850px;
+    }
+    .formContainer{
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 630px) {
+    .popUpContainer{
+        top:0;
+        position: relative;
+
+    }
+}

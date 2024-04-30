@@ -1,0 +1,35 @@
+.StatsContainer{
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    
+    
+
+}
+.Statstext{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: start;
+    line-height: 40px;
+}
+@media only screen and  (max-width:1200px){
+
+    .StatsContainer{
+        flex-direction: column;
+    }
+    .Statstext{
+        align-items: center;
+        text-align: center;
+
+    }
+}
+@media only screen and  (max-width:650px){
+
+    .StatsImage{
+        display: none;
+    }
+}

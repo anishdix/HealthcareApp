@@ -1,0 +1,29 @@
+.FaqsContainer{
+    display: flex;
+    padding: 3rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    flex-direction: column;
+    text-align: center;
+}
+.FaqsInnerContainer{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.FaqssHeading{
+    flex-wrap: wrap;
+    color:rgba(27, 60, 116, 1);
+    font-size: 48px;
+    font-weight: 600;
+}
+
+@media only screen and  (max-width:630px){
+    .FaqsContainer{
+        display:none;
+    }
+    
+}

@@ -1,0 +1,14 @@
+.PatientCaringContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 2rem;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+@media only screen and (max-width:650px){
+    .PatientCaringContainer{
+        display:none
+    }
+
+}

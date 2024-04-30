@@ -1,0 +1,33 @@
+.carouselContainer{
+    width: 100%;
+}
+.swiperItem{
+    
+    max-width: calc(100% / 3);
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+
+.swiperDate{
+    display: flex;
+    text-align: center;
+}
+.swiperItem:hover{
+    border-bottom: 4px solid rgba(42, 167, 255, 1);
+
+}
+
+@media only screen and (max-width: 900px){
+    .swiperItem{
+        width: calc(100% / 2) !important;
+        max-width: none;
+    }
+}
+@media only screen and (max-width: 550px){
+    .swiperItem{
+        width: calc(100% / 1) !important;
+        max-width: none;
+    }
+}

@@ -1,0 +1,62 @@
+.DoctorsPopUpConatiner{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 75vw;
+        background: white;
+        left: 12.5%;
+        top: 150px;
+        position: absolute;
+        border-radius: 15px;
+        box-shadow: 6px 6px 35px 0px rgba(16, 40, 81, 0.11);
+}
+.formContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    gap: 1rem;
+    margin: 1rem;
+    flex-wrap: wrap;
+}
+
+.formInputContainer{
+    position: relative;
+    width: 300px;
+    
+}
+.LocationIcon{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 25px;
+  
+
+}
+.formInput{
+    width: calc(100% - 30px); /* Adjust padding and width to fit the icon */
+  padding: 10px 10px 10px 40px; /* Adjust padding to fit the icon */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+
+}
+.formButton{
+    display: flex;
+    align-items: center;
+    color: white;
+    border-radius: 8px;
+    border: 0px;
+    background: rgba(42, 168, 255, 1);
+    padding: 10px 40px ;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+@media only screen and (max-width:550px){
+    .DoctorsPopUpConatiner{
+        top: 100px;
+    }
+}

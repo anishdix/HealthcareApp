@@ -1,0 +1,31 @@
+.BlogsContainer{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem 0rem;
+    text-align: center;
+    overflow: hidden;
+}
+.BlogsHeading{
+    flex-wrap: wrap;
+    color:rgba(27, 60, 116, 1);
+    font-size: 48px;
+    font-weight: 600;
+}
+.BlogCards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding-left: 15px;
+}
+.BlogCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 98vw;
+    
+}

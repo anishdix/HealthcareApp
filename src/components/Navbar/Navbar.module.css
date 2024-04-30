@@ -1,0 +1,75 @@
+.navbarMainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    width: 100%;
+}
+
+.navbarContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+
+}
+.withBackground{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+    background-color: #fff;
+    width: 98vw;
+}
+.navbarItems{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1.5rem;
+    padding-bottom: 8px;
+
+}
+.navbarBookingsButton{
+    color: white;
+    border-radius: 8px;
+    border: 0px;
+    background: rgba(42, 168, 255, 1);
+    padding: 10px 15px ;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+.FindDoctors{
+    padding-bottom: 8px;
+}
+.FindDoctors:hover{
+    border-bottom: 2px solid rgba(42, 168, 255, 1);
+    color:rgba(42, 168, 255, 1);
+    cursor: pointer;
+   
+}
+.extraSpace{
+    background: linear-gradient(91.75deg, #2AA7FF 1.4%, #0C8CE6 100.57%) !important;
+    height: 75px;
+    width: 100%;
+    border-radius: 0px 0px 16px 16px;
+}
+.MyBookings{
+    max-width: 98vw;
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+    text-align: left;
+    padding: 8px 24px;
+    margin-left: 2rem;
+}
+
+
+
+@media only screen and (max-width:800px){
+    .navbarItems{
+        display:none;
+    }
+}

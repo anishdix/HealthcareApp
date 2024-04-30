@@ -1,0 +1,30 @@
+.SpecialistContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem 0rem;
+    background-color: #fff;
+    gap: 2rem;
+
+}
+.SpecialistHeading{
+    color:rgba(27, 60, 116, 1);
+    font-size: 48px;
+    font-weight: 600;
+}
+.SpecialistImageContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100vw;
+    object-fit: cover;
+    overflow: hidden;
+}
+.SpecialistPagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100vw;
+    overflow: hidden;
+}

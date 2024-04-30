@@ -1,0 +1,56 @@
+.BookingsPopUpContainer{
+    width: 600px;
+    background-color: #fff;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: 15px;
+    box-shadow: 6px 6px 35px 0px rgba(16, 40, 81, 0.11);
+    top: 140px;
+    right: 10%;
+
+}
+.BookingsPopUpInput{
+    flex: 1;
+    color: rgba(171, 182, 199, 1);
+    padding: 1rem;
+    border:1px solid  rgba(240, 240, 240, 1);
+    border-radius: 8px;
+}
+.BookingsPopUpButton{
+    color: white;
+    background-color: rgba(42, 168, 255, 1);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 42px ;
+    border: none;
+    font-size: 16px;
+
+}
+@media only screen and (max-width: 1060px) {
+    .BookingsPopUpContainer{
+        margin: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: static;
+        width:50%;
+
+    }
+}
+@media only screen and (max-width: 1060px) {
+    .BookingsPopUpContainer{
+        
+        flex-direction: column;
+
+    }
+    .BookingsPopUpInput{
+       width: 70%;
+    }
+}

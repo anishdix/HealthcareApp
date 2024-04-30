@@ -1,0 +1,37 @@
+/* .FooterContainer{
+    margin: 2rem;
+
+} */
+.FooterImageContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerInnerContainer{
+    background-color: rgba(27, 60, 116, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 100vw;
+    overflow: hidden;
+}
+.AboutUsContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 2rem;
+
+}
+@media only screen and (max-width:1300px){
+    .FooterImageContainer{
+        display:none;
+    }
+    .AboutUsContainer{
+        flex-wrap: wrap;
+    }
+    .FooterSocials{
+        display: none;
+    }
+}

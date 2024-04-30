@@ -1,0 +1,37 @@
+.sessionContainer{
+    width: 100%;
+    padding: 24px;
+    background-color: #fff;
+}
+
+.subContainer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem;
+    gap: 3rem;
+    
+    border-bottom: 1px solid rgba(240, 240, 245, 1);
+}
+.buttonContainer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+.subContainerButton{
+    cursor: pointer;
+    color: rgba(42, 167, 255, 1);
+    border: 1px solid rgba(42, 167, 255, 1);
+    border-radius: 4px;
+    padding: .5rem;
+}
+.subContainerButton:hover{
+    background-color: rgba(42, 167, 255, 1);
+    color: white;
+    border: 1px solid rgba(42, 167, 255, 1);
+    border-radius: 4px;
+    padding: .5rem;
+}
